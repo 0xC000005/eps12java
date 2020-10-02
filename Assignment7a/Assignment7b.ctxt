@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Assignment7b
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-09-30\r\n\ @project\ Assignment7b\ \ in\ IntelliJ\r\n\ @description\r\n
+comment1.params=
+comment1.target=Assignment7b()
+comment2.params=hourWorked
+comment2.target=void\ setHourWorked(double)
+comment3.params=
+comment3.target=double\ getHourWorked()
+comment4.params=hourlyRate
+comment4.target=void\ setHourlyRate(double)
+comment5.params=
+comment5.target=double\ getHourlyRate()
+comment6.params=
+comment6.target=double\ getGrossWage()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
