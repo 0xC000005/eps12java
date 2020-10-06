@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=student
+comment1.params=_studentName\ _studnetNumber\ _studentAge\ _studentGrade\ _studentGraduatingStatus
+comment1.target=student(java.lang.String,\ int,\ int,\ int,\ boolean)
+comment10.params=studentGraduatingStatus
+comment10.target=void\ setStudentGraduatingStatus(boolean)
+comment11.params=
+comment11.target=boolean\ isStudentGraduatingStatus()
+comment2.params=studentName
+comment2.target=void\ setStudentName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getStudentName()
+comment4.params=studentNumber
+comment4.target=void\ setStudentNumber(int)
+comment5.params=
+comment5.target=int\ getStudentNumber()
+comment6.params=studentAge
+comment6.target=void\ setStudentAge(int)
+comment7.params=
+comment7.target=int\ getStudentAge()
+comment8.params=studentGrade
+comment8.target=void\ setStudentGrade(double)
+comment9.params=
+comment9.target=double\ getStudentGrade()
+numComments=12

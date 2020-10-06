@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=course
+comment1.params=_blockOrder\ _courseTitle
+comment1.target=course(java.lang.String,\ java.lang.String)
+comment2.params=blockOrder
+comment2.target=void\ setBlockOrder(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getBlockOrder()
+comment4.params=courseTitle
+comment4.target=void\ setCourseTitle(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getCourseTitle()
+numComments=6

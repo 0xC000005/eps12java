@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=schedule
+comment1.params=_term\ _blockOrder1\ _courseTitle1\ _blockOrder2\ _courseTitle2
+comment1.target=schedule(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=term
+comment2.target=void\ setTerm(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getTerm()
+comment4.params=_blockOrder\ _courseTitle
+comment4.target=void\ setFirstCourse(java.lang.String,\ java.lang.String)
+comment5.params=
+comment5.target=course\ getFirstCourse()
+comment6.params=_blockOrder\ _courseTitle
+comment6.target=void\ setSecondCourse(java.lang.String,\ java.lang.String)
+comment7.params=
+comment7.target=course\ getSecondCourse()
+numComments=8
