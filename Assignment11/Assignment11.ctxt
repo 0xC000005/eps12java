@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Assignment11
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-10-14\r\n\ @project\ Assignment11\ in\ IntelliJ\r\n\ @description\r\n
+comment1.params=
+comment1.target=Assignment11()
+comment2.params=userChoice
+comment2.target=void\ userOperationSwitcher(int)
+comment3.params=
+comment3.target=void\ addStudentAtTheEnd()
+comment4.params=
+comment4.target=void\ deleteLastStudent()
+comment5.params=
+comment5.target=void\ deleteStudentWithName()
+comment6.params=
+comment6.target=void\ displayStudentListLength()
+comment7.params=currentStudent
+comment7.target=void\ displayIndividualStudent(Student)
+comment8.params=studentList
+comment8.target=void\ displayStudentList(java.util.ArrayList)
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10

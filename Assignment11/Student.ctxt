@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-10-14\r\n\ @project\ Assignment11\ in\ IntelliJ\r\n\ @description\r\n
+comment1.params=studentName\ studentGrade\ studentNumber
+comment1.target=Student(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getStudentName()
+comment3.params=studentName
+comment3.target=void\ setStudentName(java.lang.String)
+comment4.params=
+comment4.target=int\ getStudentGrade()
+comment5.params=studentGrade
+comment5.target=void\ setStudentGrade(int)
+comment6.params=
+comment6.target=int\ getStudentNumber()
+comment7.params=studentNumber
+comment7.target=void\ setStudentNumber(int)
+numComments=8
