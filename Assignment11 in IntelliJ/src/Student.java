@@ -5,21 +5,35 @@
  * @description
  */
 public class Student {
-    private String studentName;
+    private String studentFirstName, studentLastName;
     private int studentGrade, studentNumber;
 
-    public Student(String studentName, int studentGrade, int studentNumber) {
-        setStudentName(studentName);
+    public Student(String studentFirstName, String studentLastName, int studentGrade, int studentNumber) {
+        setStudentFirstName(studentFirstName);
+        setStudentLastName(studentLastName);
+
         setStudentGrade(studentGrade);
         setStudentNumber(studentNumber);
     }
 
-    public String getStudentName() {
-        return studentName;
+    public String getStudentFirstName() {
+        return studentFirstName;
     }
 
-    public void setStudentName(String studentName) {
-        this.studentName = studentName;
+    public void setStudentFirstName(String studentFirstName) {
+        this.studentFirstName = studentFirstName;
+    }
+
+    public String getStudentLastName() {
+        return studentLastName;
+    }
+
+    public void setStudentLastName(String studentLastName) {
+        this.studentLastName = studentLastName;
+    }
+
+    public String getStudentName() {
+        return getStudentFirstName() + getStudentLastName();
     }
 
     public int getStudentGrade() {
