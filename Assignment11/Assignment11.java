@@ -35,7 +35,7 @@ public class Assignment11 {
                 deleteLastStudent();
                 break;
             case 3:
-                deleteStudentWithName();
+                deleteStudentByFirstName();
                 break;
             case 4:
                 displayStudentListLength();
@@ -48,15 +48,17 @@ public class Assignment11 {
     }
 
     public void addStudentAtTheEnd() {
-        String studentName;
+        String studentFirstName, studentLastName;
         int studentGrade, studentNumber;
-        System.out.print("Input student's name: ");
-        studentName = input.getString();
+        System.out.print("Input student's first name: ");
+        studentFirstName = input.getString();
+        System.out.print("Input student's last name: ");
+        studentLastName = input.getString();
         System.out.print("Input student's grade: ");
         studentGrade = input.getIntWithNoneZeroErrorCheck();
         System.out.print("Input student's student number: ");
         studentNumber = input.getIntWithNoneZeroErrorCheck();
-        Student newStudent = new Student(studentName, studentGrade, studentNumber);
+        Student newStudent = new Student(studentFirstName, studentLastName, studentGrade, studentNumber);
         studentList.add(newStudent);
     }
 
@@ -65,19 +67,33 @@ public class Assignment11 {
         studentList.remove(studentList.size() - 1);
     }
 
-    public void deleteStudentWithName() {
-        System.out.print("Input the name of student that you want to delete: ");
-        String studentNameForDelete = input.getString();
-        ArrayList<Student> studentListForDelete = new ArrayList<>();
+    public void deleteStudentByFirstName() {
+        System.out.print("Input the first name of student that you want to delete: ");
+        String studentFirstNameForDelete = input.getString();
+        ArrayList<Student> studentListHavingSameFirstNameForDelete = new ArrayList<>();
 
         for (Student currentStudent : studentList) {
-            if (currentStudent.getStudentName().equals(studentNameForDelete)) {
-                studentListForDelete.add(currentStudent);
+            if (currentStudent.getStudentFirstName().equals(studentFirstNameForDelete)) {
+                studentListHavingSameFirstNameForDelete.add(currentStudent);
             }
         }
 
-        for (Student studentNeedsToDelete : studentListForDelete) {
-            studentList.remove(studentNeedsToDelete);
+        if (studentListHavingSameFirstNameForDelete.size() == 1) {
+            for (Student studentNeedsToDelete : studentListHavingSameFirstNameForDelete) {
+                studentList.remove(studentNeedsToDelete);
+            }
+        } else {
+            System.out.println("We have multiple students named " + studentFirstNameForDelete + ", display all students with the correspond first name: ");
+            displayStudentList(studentListHavingSameFirstNameForDelete);
+            System.out.print("Input the last name of student that you want to delete: ");
+            String studentLastNameForDelete = input.getString();
+
+            for (Student currentStudentWithSameFirstName : studentListHavingSameFirstNameForDelete) {
+                if (currentStudentWithSameFirstName.getStudentLastName().equals(studentLastNameForDelete)) {
+                    studentList.remove(currentStudentWithSameFirstName);
+                }
+            }
+
         }
     }
 
