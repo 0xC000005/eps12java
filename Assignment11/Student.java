@@ -33,7 +33,7 @@ public class Student {
     }
 
     public String getStudentName() {
-        return getStudentFirstName() + getStudentLastName();
+        return getStudentFirstName() + " " + getStudentLastName();
     }
 
     public int getStudentGrade() {

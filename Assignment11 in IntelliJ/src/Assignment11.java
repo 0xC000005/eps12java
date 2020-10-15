@@ -53,7 +53,7 @@ public class Assignment11 {
     }
 
     public void deleteLastStudent() {
-        System.out.println("The student " + studentList.get(studentList.size() - 1).getStudentName() + "will be deleted.");
+        System.out.println("The student " + studentList.get(studentList.size() - 1).getStudentName() + " will be deleted.");
         studentList.remove(studentList.size() - 1);
     }
 
@@ -68,7 +68,9 @@ public class Assignment11 {
             }
         }
 
-        if (studentListHavingSameFirstNameForDelete.size() == 1) {
+        if (studentListHavingSameFirstNameForDelete.size() == 0) {
+            System.out.println("Can't find any student with the first name " + studentFirstNameForDelete);
+        } else if (studentListHavingSameFirstNameForDelete.size() == 1) {
             for (Student studentHavingSameFirstNameNeedsToDelete : studentListHavingSameFirstNameForDelete) {
                 studentList.remove(studentHavingSameFirstNameNeedsToDelete);
             }
@@ -84,7 +86,9 @@ public class Assignment11 {
                 }
             }
 
-            if (studentListHavingSameFirstAndLastNameForDelete.size() == 1) {
+            if (studentListHavingSameFirstAndLastNameForDelete.size() == 0) {
+                System.out.println("Can't find any student with the first name " + studentFirstNameForDelete + " and the last name " + studentLastNameForDelete);
+            } else if (studentListHavingSameFirstAndLastNameForDelete.size() == 1) {
                 for (Student studentHavingSameFirstAndLastNameNeedDelete : studentListHavingSameFirstAndLastNameForDelete) {
                     studentList.remove(studentHavingSameFirstAndLastNameNeedDelete);
                 }
@@ -93,9 +97,18 @@ public class Assignment11 {
                 displayStudentList(studentListHavingSameFirstAndLastNameForDelete);
                 System.out.print("Input the student number of student that you want to delete: ");
                 int studentNumberForDelete = input.getIntWithNoneZeroErrorCheck();
+                ArrayList<Student> studentListHavingSameStudentNumber = new ArrayList<>();
                 for (Student studentHavingSameStudentNumber : studentListHavingSameFirstAndLastNameForDelete) {
                     if (studentHavingSameStudentNumber.getStudentNumber() == studentNumberForDelete) {
-                        studentList.remove(studentHavingSameStudentNumber);
+                        studentListHavingSameStudentNumber.add(studentHavingSameStudentNumber);
+                    }
+                }
+
+                if (studentListHavingSameStudentNumber.size() == 0) {
+                    System.out.println("Can't find any student with the student named " + studentFirstNameForDelete + " " + studentLastNameForDelete + " and also having the student number " + studentNumberForDelete);
+                } else if (studentListHavingSameStudentNumber.size() == 1) {
+                    for (Student studentHavingSameStudentNumberForDelete : studentListHavingSameStudentNumber) {
+                        studentList.remove(studentHavingSameStudentNumberForDelete);
                     }
                 }
             }
