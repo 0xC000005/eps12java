@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Assignment5d
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-09-22\r\n\ @project\ Assignment5d\ in\ IntelliJ\r\n\ @description\r\n
+comment1.params=change
+comment1.target=void\ setChange(double)
+comment2.params=
+comment2.target=double\ getChange()
+comment3.params=num
+comment3.target=double\ roundUp(double)
+comment4.params=
+comment4.target=Assignment5d()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
