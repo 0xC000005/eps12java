@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Dealer
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-10-16\r\n\ @project\ Test2\ in\ IntelliJ\r\n\ @description\r\n
+comment1.params=newCar
+comment1.target=void\ addNewCarToCarList(Car)
+comment2.params=
+comment2.target=void\ display()
+comment3.params=carArrayList
+comment3.target=void\ displayCarArrayList(java.util.ArrayList)
+comment4.params=userChoice
+comment4.target=void\ userChoiceSwitcher(java.lang.String)
+comment5.params=carArrayList\ maximumMileage
+comment5.target=void\ searchCarByMaximumMileage(java.util.ArrayList,\ int)
+comment6.params=carArrayList\ maximumPrice
+comment6.target=void\ searchCarByMaximumPrice(java.util.ArrayList,\ double)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
