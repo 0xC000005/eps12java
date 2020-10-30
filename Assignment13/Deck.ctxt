@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Deck
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-10-28\r\n\ @project\ Assignment13\ in\ IntelliJ\ 2.0\r\n\ @description\r\n
+comment1.params=
+comment1.target=Deck()
+comment2.params=
+comment2.target=void\ getNewCardDeck()
+comment3.params=
+comment3.target=void\ loadDeck()
+comment4.params=currentPlayer
+comment4.target=void\ pop5CardsToPlayer(Player)
+numComments=5

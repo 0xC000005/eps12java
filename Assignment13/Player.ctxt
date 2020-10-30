@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-10-28\r\n\ @project\ Assignment13\ in\ IntelliJ\ 2.0\r\n\ @description\r\n
+comment1.params=name
+comment1.target=Player(java.lang.String)
+comment10.params=
+comment10.target=java.util.ArrayList\ getCardHeap()
+comment11.params=cardHeap
+comment11.target=void\ setCardHeap(java.util.ArrayList)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=int\ getMoney()
+comment5.params=money
+comment5.target=void\ setMoney(int)
+comment6.params=
+comment6.target=int\ getBet()
+comment7.params=bet
+comment7.target=void\ setBet(int)
+comment8.params=
+comment8.target=int\ getScore()
+comment9.params=score
+comment9.target=void\ setScore(int)
+numComments=12
