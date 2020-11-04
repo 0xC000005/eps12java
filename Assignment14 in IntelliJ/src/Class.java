@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Random;
 
 /**
  * @author m04.zhang
@@ -9,6 +10,8 @@ import java.util.ArrayList;
 public class Class {
     ArrayList<Student> students = new ArrayList<>();
     final Input input = new Input();
+    private static final String[] NAMES = {"Billy", "Smith", "Jenny", "Liu", "Owen", "Lang", "Jack", "Ma", "Tony", "Max", "Brain", "Jimmy"};
+    private static final String[] COURSETITLES = {"MCMPR11", "MGRPR11", "ENGPR11", "MTHPR11", "MOMPR11", "ERRPR11", "ENGPR11", "MTHPR12", "WWDPR11", "ENGPR12", "WWDPR11", "MTHPR11"};
 
     public Class() {
 
@@ -16,6 +19,7 @@ public class Class {
 
     public void runClass()
     {
+        loadClass(30);
         System.out.println("Class Roster\n");
         studentListDisplayOption();
     }
@@ -52,28 +56,27 @@ public class Class {
         displayClassList(studentsAboveAverage);
     }
 
-    public static void main(String[] args) {
-        //prep test data
-        Student student1 = new Student("Billy", "Smith");
-        student1.addCourse("MCMPR11" , 92);
-        student1.addCourse("MGRPR11" , 95);
-        student1.addCourse("ENGPR11" , 82);
-        student1.addCourse("MTHPR11" , 90);
-        Student student2 = new Student("Jenny", "Liu");
-        student2.addCourse("MOMPR11", 100);
-        student2.addCourse("ERRPR11", 90);
-        student2.addCourse("ENGPR11", 90);
-        student2.addCourse("MTHPR12", 100);
-        Student student3 = new Student("Owen", "Lang");
-        student3.addCourse("WWDPR11", 80);
-        student3.addCourse("MMRPR11", 70);
-        student3.addCourse("ENGPR12", 90);
-        student3.addCourse("MTHPR11", 60);
+    public int randNum(int max)
+    {
+        Random rand = new Random();
+        return rand.nextInt(max + 1);
+    }
 
+    public void loadClass(int numberOfStudents)
+    {
+        for(int i=0;i<numberOfStudents;i++)
+        {
+            Student newStudent = new Student(NAMES[randNum(NAMES.length-1)], NAMES[randNum(NAMES.length-1)]);
+            for(int x=0;x<4;x++)
+            {
+                newStudent.addCourse(COURSETITLES[randNum(COURSETITLES.length-1)], randNum(100));
+            }
+            addStudent(newStudent);
+        }
+    }
+
+    public static void main(String[] args) {
         Class testObject = new Class();
-        testObject.addStudent(student1);
-        testObject.addStudent(student2);
-        testObject.addStudent(student3);
         testObject.runClass();
     }
 }

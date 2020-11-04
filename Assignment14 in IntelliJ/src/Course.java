@@ -30,6 +30,6 @@ public class Course {
     }
 
     public String displayCourseInfo() {
-        return getName() + "-" + getGrade();
+        return getName() + " - " + getGrade();
     }
 }
