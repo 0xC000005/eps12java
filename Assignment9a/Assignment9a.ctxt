@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Assignment9a
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-10-05\r\n\ @project\ Assignment9a\ in\ IntelliJ\r\n\ @description\r\n
+comment1.params=
+comment1.target=Assignment9a()
+comment2.params=userCarModel
+comment2.target=void\ setUserCarModel(int)
+comment3.params=
+comment3.target=int\ getUserCarModel()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
