@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Books
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-11-10\r\n\ @project\ Last\ Assignment\ in\ IntelliJ\r\n\ @description\r\n
+comment1.params=
+comment1.target=Books()
+comment10.params=value
+comment10.target=void\ setValue(double)
+comment2.params=title\ firstName\ lastName\ ISBN
+comment2.target=Books(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment4.params=title
+comment4.target=void\ setTitle(java.lang.String)
+comment5.params=
+comment5.target=Author\ getAuthor()
+comment6.params=firstName\ lastName
+comment6.target=void\ setAuthor(java.lang.String,\ java.lang.String)
+comment7.params=
+comment7.target=int\ getISBN()
+comment8.params=ISBN
+comment8.target=void\ setISBN(int)
+comment9.params=
+comment9.target=double\ getValue()
+numComments=11

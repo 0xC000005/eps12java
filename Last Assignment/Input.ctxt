@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Input
+comment0.text=\r\n\ Class\ InputReader\ reads\ user\ input\ from\ the\ keyboard.\r\n\r\n\ @author\ Max\ Zhang\r\n\ @version\ 2019.02.13\r\n
+comment1.params=
+comment1.target=Input()
+comment1.text=\r\n\ Create\ a\ new\ InputReader\ to\ read\ user\ input.\r\n
+comment2.params=
+comment2.target=double\ getDoubleWithNoneZeroErrorCheck()
+numComments=3

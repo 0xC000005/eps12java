@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Library
+comment0.text=\r\n\ The\ program\ should\ display\ all\ books\ in\ your\ collection\r\n\ <p>\r\n\ then\ ask\ for\ value\ for\ each\ book\ and\ then\ display\ the\r\n\ collection\ again\ in\ increasing\ value.\r\n\ <p>\r\n\ run\ the\ display\ method\r\n\ ------------------------------------------\r\n\ My\ Collection\r\n\ <p>\r\n\ ISBN\ \ \ \ \ Author\ \ \ \ \ \ \ \ \ \ Title\ \ \ \ \ \ \ Value\r\n\ 12356\ \ \ \ King,\ Stephen\ \ \ Carrie\ \ \ \ \ \ $0.00\r\n\ 3265\ \ \ \ \ Smith,\ Mike\ \ \ \ \ Hockey\ Life\ $0.00\r\n\ 68746\ \ \ \ Wong,\ Sally\ \ \ \ \ Survival\ \ \ \ $0.00\r\n\ <p>\r\n\ Enter\ value\ of\ Carrie\ $\ \ 4.50\r\n\ Enter\ value\ of\ Hockey\ Life\ $\ 12.60\r\n\ Enter\ value\ of\ Survival\ $\ 6.99\r\n\ <p>\r\n\ ISBN\ \ \ \ \ Author\ \ \ \ \ \ \ \ \ \ Title\ \ \ \ \ \ \ Value\r\n\ 12356\ \ \ \ King,\ Stephen\ \ \ Carrie\ \ \ \ \ \ $4.50\r\n\ 68746\ \ \ \ Wong,\ Sally\ \ \ \ \ Survival\ \ \ \ $6.99\r\n\ 3265\ \ \ \ \ Smith,\ Mike\ \ \ \ \ Hockey\ Life\ $12.60\r\n
+comment1.params=
+comment1.target=Library()
+comment2.params=currentBook
+comment2.target=void\ printBookInfo(Books)
+comment3.params=
+comment3.target=void\ displayBookList()
+comment4.params=
+comment4.target=void\ inputBooksValue()
+comment5.params=index
+comment5.target=Books\ popBook(int)
+comment6.params=
+comment6.target=void\ displaySortedBookList()
+comment7.params=
+comment7.target=void\ display()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
