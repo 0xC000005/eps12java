@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=LP
+comment0.text=\r\n\ @author\ m04.zhang\r\n\ @version\ 2020-11-12\r\n\ @project\ Final\ 2020\ in\ IntelliJ\r\n\ @description\r\n
+comment1.params=artist\ title\ genre\ value
+comment1.target=LP(java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getArtist()
+comment3.params=artist
+comment3.target=void\ setArtist(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getTitle()
+comment5.params=title
+comment5.target=void\ setTitle(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getGenre()
+comment7.params=genre
+comment7.target=void\ setGenre(java.lang.String)
+comment8.params=
+comment8.target=java.lang.Double\ getValue()
+comment9.params=value
+comment9.target=void\ setValue(java.lang.Double)
+numComments=10

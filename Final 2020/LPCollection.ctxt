@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=LPCollection
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LPCollection\ here.\r\n\ <p>\r\n\ Complete\ the\ rest\ of\ this\ programming.\ When\ you\ create\r\n\ a\ new\ LPCollection\ object\ it\ will\ automatically\ run\r\n\ as\ follows.\ If\ you\ choose\ a\ the\ entire\ collection\ shows\r\n\ if\ you\ choose\ g,\ then\ the\ computer\ asks\ for\ genre\ and\ displays\r\n\ only\ the\ genre\ type.\ Include\ errorChecking\ for\ upper\ and\r\n\ lower\ case\ and\ only\ accept\ the\ letters\ as\ shown\ below\r\n\ ------------------------------------------------------\r\n\ My\ LP\ Collection\r\n\ <p>\r\n\ What\ would\ you\ like\ to\ see?\r\n\ <p>\r\n\ Whole\ collection\ (a)\ or\ by\ genre\ (g)?\ g\r\n\ <p>\r\n\ Genre\ type\ (c)lassic\ rock\ (p)op\ (r)ock\ (h)ip\ hop?\ h\r\n\ <p>\r\n\ Artist\:\ \ \ \ \ \ Title\:\ \ \ \ \ \ Genre\:\ \ Value\:\r\n\ <p>\r\n\ Drake\ \ \ \ \ \ \ \ Views\ \ \ \ \ \ \ Hip\ Hop\ $19.99\r\n\ Drake\ \ \ \ \ \ \ \ Scorpion\ \ \ \ Hip\ Hop\ $20.99\r\n\ ----------------------------------------------\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=LPCollection()
+comment10.params=
+comment10.target=void\ askUserOptionForDisplay()
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ loadLPs()
+comment3.params=
+comment3.target=void\ displayCollection()
+comment4.params=occupiedLength
+comment4.target=java.lang.String\ generatePlaceHolder(int)
+comment5.params=currentLP
+comment5.target=void\ displayASingleLP(LP)
+comment6.params=LPList
+comment6.target=void\ displayTheCollection(java.util.ArrayList)
+comment7.params=
+comment7.target=void\ displayWholeCollection()
+comment8.params=type
+comment8.target=void\ displayCollectionByType(java.lang.String)
+comment9.params=
+comment9.target=void\ askUserDisplayOptionByType()
+numComments=12
