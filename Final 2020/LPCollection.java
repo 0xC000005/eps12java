@@ -68,7 +68,7 @@ public class LPCollection {
 
 
     public void displayTheCollection(ArrayList<LP> LPList) {
-        System.out.println("Artist:         Title:          Genre:         Value:\n");
+        System.out.println("Artist:         Title:          Genre:          Value:\n");
         for (LP currentLP : LPList) displayASingleLP(currentLP);
     }
 
